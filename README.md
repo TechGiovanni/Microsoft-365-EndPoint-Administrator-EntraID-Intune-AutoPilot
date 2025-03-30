@@ -1,4 +1,4 @@
-## Welcome to Microsoft EntraID Lab
+## Welcome to Microsoft 365 Endpoint Administrator Lab
 <img src="https://imgur.com/BU8QJcj.png"/>
 
 ### Introduction
