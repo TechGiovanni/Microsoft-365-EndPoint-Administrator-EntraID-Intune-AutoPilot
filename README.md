@@ -8,6 +8,8 @@ The lab deploys a Microsoft Sentinel workspace and ingests event logs from the V
 You should expect very little or no cost at all due to the size of the data (~10 MB), and the fact that Microsoft Sentinel offers a 30-day free trial on new workspaces.
 
 -->
+ ### Important
+  Make sure to cancel all your subscription before you delete your account so that you don't get charged a fee at the end of the month.
 
 ### Prerequisites
 - Microsoft Azure subscription - <a href="https://portal.azure.com/?quickstart=true#home"> Portal.azure.com</a>
@@ -18,8 +20,6 @@ You should expect very little or no cost at all due to the size of the data (~10
 - Download the windows Server 2022 ISO from Microsoft and save it to your desktop: https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2022
 - Download the windows 11 ISO from Microsoft and save it to your desktop: https://www.microsoft.com/en-us/evalcenter/evaluate-windows-11-enterprise
 
-  ### Important
-  Make sure to cancel all your subscription before you delete your account so that you don't get charged a fee at the end of the month.
 
 
 ### Modules
