@@ -1,7 +1,7 @@
 ## Welcome to Microsoft 365 Endpoint Administrator Lab
 <img src="https://imgur.com/BU8QJcj.png"/>
 
-### Introduction
+<!-- ### Introduction
 Today we are going to be setting up multiple indemand technologies.
 
 The lab deploys a Microsoft Sentinel workspace and ingests event logs from the Vitual machine (honeypot) to showcase various types of attacks that are hitting this VM and also to showcase Microsoft Sentinel features. 
