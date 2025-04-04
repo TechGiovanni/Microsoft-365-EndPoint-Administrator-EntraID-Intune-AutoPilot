@@ -18,6 +18,9 @@ You should expect very little or no cost at all due to the size of the data (~10
 - Download the windows Server 2022 ISO from Microsoft and save it to your desktop: https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2022
 - Download the windows 11 ISO from Microsoft and save it to your desktop: https://www.microsoft.com/en-us/evalcenter/evaluate-windows-11-enterprise
 
+  ### Important
+  Make sure to cancel all your subscription before you delete your account so that you don't get charged a fee at the end of the month.
+
 
 ### Modules
 <!--
@@ -88,11 +91,29 @@ Install On-Premise Windows 11. Using the ISO that was downloaded earlier, or if 
 Assigning licenses to Users.
 - First we will get the license by going to admin.microsoft.com
 - then Market place in the left side menu
-- then in the search type Microsoft 365 E5
+- then in the search type Microsoft 365 E5 and either purchase or use the free trial. I used the free trial fro one month.
   
 <p align="center">
   <img src="https://imgur.com/eOrfxFo.png"/>
 </p>
+
+- After your obtained the free trial.
+- go to Licenses under Billing
+- Select the Subscriptions Tab
+- Then click your Microsoft 365 E% (no Teams) License
+- then click Assign Licenses
+- After a tab on the right will instruct you to "Assign licenses to users"
+- choose the email address from the drop down or input the email.
+- then click Assign
+
+<p align="center">
+  <img src="https://imgur.com/1TA6YEm.png"/>
+</p>
+
+
+# Module 2: Setting up devices into EntraID
+
+
 
 
 
