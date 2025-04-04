@@ -79,8 +79,11 @@ To avoid ay errors in the future, we will disable
 
 Installing Windows Server 2022
 
+Installing On Premise Windows 11
 
+Installing cloud windows
 
+Here all we need to do is purchase a license of Windows 11 and then assign that licence to a user.
 
 
 
