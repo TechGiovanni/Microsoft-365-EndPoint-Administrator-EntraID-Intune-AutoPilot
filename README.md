@@ -10,7 +10,10 @@ You should expect very little or no cost at all due to the size of the data (~10
 -->
 
 ### Prerequisites
-- Microsoft Azure subscription
+- Microsoft Azure subscription - <a href="https://portal.azure.com/?quickstart=true#home"> Portal.azure.com</a>
+- Office 365 E5
+- Microsoft 365 E5 - <a href="https://admin.microsoft.com/AdminPortal/Home#/homepage">Admin.microsoft.com</a>
+- Microsoft Intune - <a href="https://intune.microsoft.com/#home">Intune.microsoft.com</a>
 - Hyper-V
 <!-- 
 - Network analysis tools (Wireshark, Advanced IP Scanner) for capturing and examining network traffic.
