@@ -32,10 +32,11 @@ You should expect very little or no cost at all due to the size of the data (~10
 
 In this section we are goign to setup our Hyper-V, virtual machines, Virtual network adaters, windows server 2022, 
 
-
 Download the windows Server 2022 ISO from Microsoft and save it to your desktop: 
 https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2022
 
+Download the windows 11 ISO from Microsoft and save it to your desktop: 
+https://www.microsoft.com/en-us/software-download/windows11
 
 Install Hyper-V on windows:
 - Go to the search box of your windows machine and type: "Turn Windows features on or off"
@@ -47,19 +48,18 @@ Install Hyper-V on windows:
 </p>
 
 
-Setting up an external virtual switch in Hyper-V. This allows us to communicate to the internet.
+Set up an external virtual switch in Hyper-V. This allows us to communicate to the internet.
 - Click Virtual Switch Manager
 - Under Create Virtual Switch, choose External
 - Click Create Virtual Switch
 - Name it: External_Internet_Switch
 - Then click Apply
   
-
 <p align="center">
   <img src="https://imgur.com/gacxDhZ.png"/>
 </p>
 
-To avoid ay errors in the future, we will disable 
+To avoid any errors in the future, we will disable 
 - Right click the windows icon
 - then click device manager
 
