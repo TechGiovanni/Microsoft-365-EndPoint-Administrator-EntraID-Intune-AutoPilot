@@ -15,10 +15,9 @@ You should expect very little or no cost at all due to the size of the data (~10
 - Microsoft 365 E5 - <a href="https://admin.microsoft.com/AdminPortal/Home#/homepage">Admin.microsoft.com</a>
 - Microsoft Intune - <a href="https://intune.microsoft.com/#home">Intune.microsoft.com</a>
 - Hyper-V
-<!-- 
-- Network analysis tools (Wireshark, Advanced IP Scanner) for capturing and examining network traffic.
-- Network Documentation (Packet Tracer, GitHub)
--->
+- Download the windows Server 2022 ISO from Microsoft and save it to your desktop: https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2022
+- Download the windows 11 ISO from Microsoft and save it to your desktop: https://www.microsoft.com/en-us/software-download/windows11
+
 
 ### Modules
 <!--
@@ -32,11 +31,7 @@ You should expect very little or no cost at all due to the size of the data (~10
 
 In this section we are goign to setup our Hyper-V, virtual machines, Virtual network adaters, windows server 2022, 
 
-Download the windows Server 2022 ISO from Microsoft and save it to your desktop: 
-https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2022
 
-Download the windows 11 ISO from Microsoft and save it to your desktop: 
-https://www.microsoft.com/en-us/software-download/windows11
 
 Install Hyper-V on windows:
 - Go to the search box of your windows machine and type: "Turn Windows features on or off"
