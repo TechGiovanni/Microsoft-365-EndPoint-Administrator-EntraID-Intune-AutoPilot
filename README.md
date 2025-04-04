@@ -16,7 +16,7 @@ You should expect very little or no cost at all due to the size of the data (~10
 - Microsoft Intune - <a href="https://intune.microsoft.com/#home">Intune.microsoft.com</a>
 - Hyper-V
 - Download the windows Server 2022 ISO from Microsoft and save it to your desktop: https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2022
-- Download the windows 11 ISO from Microsoft and save it to your desktop: https://www.microsoft.com/en-us/software-download/windows11
+- Download the windows 11 ISO from Microsoft and save it to your desktop: https://www.microsoft.com/en-us/evalcenter/evaluate-windows-11-enterprise
 
 
 ### Modules
@@ -29,8 +29,7 @@ You should expect very little or no cost at all due to the size of the data (~10
 
 # Module 1: Setup Hands the Lab environment
 
-In this section we are goign to setup our Hyper-V, virtual machines, Virtual network adaters, windows server 2022, 
-
+In this section we are going to setup our on-premise environment as well as our cloud environment 
 
 
 Install Hyper-V on windows:
@@ -54,7 +53,7 @@ Set up an external virtual switch in Hyper-V. This allows us to communicate to t
   <img src="https://imgur.com/gacxDhZ.png"/>
 </p>
 
-To avoid any errors in the future, we will disable 
+To avoid any errors in the future, we will disable two properties.
 - Right click the windows icon
 - then click device manager
 
@@ -72,14 +71,28 @@ To avoid any errors in the future, we will disable
 </p>
 
 
-Installing Windows Server 2022
+Install On-premise Windows Server 2022. Then create and promote that server to a domain controller.
+- Download link: https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2022
 
-Installing On Premise Windows 11
+<p align="center">
+  <img src="https://imgur.com/P235Ad8.png"/>
+</p>
 
-Installing cloud windows
+Install On-Premise Windows 11. Using the ISO that was downloaded earlier, or if not down load it now and then put it into hyper-v and start the virtual machine.
+- Download link: https://www.microsoft.com/en-us/evalcenter/evaluate-windows-11-enterprise
 
-Here all we need to do is purchase a license of Windows 11 and then assign that licence to a user.
+<p align="center">
+  <img src="https://imgur.com/QAMaz1I.png"/>
+</p>
 
+Assigning licenses to Users.
+- First we will get the license by going to admin.microsoft.com
+- then Market place in the left side menu
+- then in the search type Microsoft 365 E5
+  
+<p align="center">
+  <img src="https://imgur.com/eOrfxFo.png"/>
+</p>
 
 
 
